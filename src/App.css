@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-principal{
+  background-image: url("https://cdn.shopify.com/s/files/1/0305/4075/9177/products/N05183_2.jpg");
+  background-size: contain;
+  background-repeat: repeat-x;
+  inline-size:40rem;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 1.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  inline-size: 37rem;
+  padding: 1rem;
+}
+.label-importes{
+  inline-size: 32rem;
+  display: flex;
+  justify-content:space-between;
+  margin-top: .1rem;
+}
+.label-importes label{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-importes{
+  inline-size: 32rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  
 }
+.header-importes input{
+  background-color: rgb(151, 85, 151);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: center;
+  inline-size: 8rem;
+  block-size: 35px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.sub-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  margin-top: 7px;
+}
+
+.container-total-results{
+  background-color: rgb(146, 88, 146);
+  display: flex;
+  justify-content: space-between;
+  inline-size: 40rem;
+  padding: .5rem;
+  
+}
+.container-total-results{
+  display: flex;
+  justify-content: space-between;
+}
+.total-results-details{
+  margin-top: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+.total-results-import{
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.button-credito{
+  inline-size: 382px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  padding: 14px;
+}
+.button-details{
+  inline-size: 250px;
+  font-size: .7rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  padding: 18px;
+}
+
