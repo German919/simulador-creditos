@@ -5,7 +5,10 @@ import store from "./store";
 import SliderAmount from "./components/sliderMonto";
 import SliderCuota from './components/sliderCuota';
 import SliderResult from './components/sliderResult';
+
 const App = () => {
+
+  // Agregamos estilos  con css module
 
   return (
     <div className="container-principal">
